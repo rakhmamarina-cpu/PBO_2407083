@@ -7,7 +7,7 @@ public class main {
     
             int pilihan;
     
-            System.out.println("=== MENU BANGUN DATAR ===");
+            System.out.println("MENU BANGUN DATAR");
             System.out.println("1. Persegi");
             System.out.println("2. Persegi Panjang");
             System.out.println("3. Segitiga");
@@ -26,7 +26,6 @@ public class main {
     
                     System.out.println("Luas Persegi = " + p.LuasPersegi());
                     break;
-    
                 case 2:
                     PersegiPanjang pp = new PersegiPanjang();
     

@@ -1,7 +1,7 @@
 package tugas_pbo.tugas2;
 
 public class BangunDatar {
-    // enkapsulasi (private)
+    // enkapsulasi
     private double panjang;
     private double lebar;
 
@@ -20,8 +20,7 @@ public class BangunDatar {
         return lebar;
     }
 
-    // method hitung luas
     public double hitungLuas() {
-        return panjang * lebar;
+        return panjang * lebar * 2;
     }
 }

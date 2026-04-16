@@ -27,7 +27,7 @@ public class Menu {
         this.harga = harga;
     }
 
-    // Method default
+    // Method default (JANGAN PRINT DI SINI)
     public double hitungTotal() {
         return harga;
     }

@@ -1,6 +1,6 @@
 package tugas_pbo.tugas4;
 
-public class MenuItem extends Menu{
+public class MenuItem extends Menu {
     private int jumlah;
 
     // Constructor
@@ -18,7 +18,7 @@ public class MenuItem extends Menu{
         this.jumlah = jumlah;
     }
 
-    // Override
+    // Override 
     @Override
     public double hitungTotal() {
         return getHarga() * jumlah;
@@ -30,5 +30,6 @@ public class MenuItem extends Menu{
         System.out.println("Harga: " + getHarga());
         System.out.println("Jumlah: " + jumlah);
         System.out.println("Total: " + hitungTotal());
+        System.out.println();
     }
 }

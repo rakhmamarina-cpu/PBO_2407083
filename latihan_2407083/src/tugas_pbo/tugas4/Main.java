@@ -9,19 +9,17 @@ public class Main {
 
         double totalSemua = 0;
 
+        System.out.println("===== STRUK PEMBELIAN =====");
+
         m1.tampilkan();
-        System.out.println();
-
         m2.tampilkan();
-        System.out.println();
-
         m3.tampilkan();
-        System.out.println();
 
         totalSemua += m1.hitungTotal();
         totalSemua += m2.hitungTotal();
         totalSemua += m3.hitungTotal();
 
         System.out.println("TOTAL SEMUA: " + totalSemua);
+        System.out.println("===========================");
     }
 }

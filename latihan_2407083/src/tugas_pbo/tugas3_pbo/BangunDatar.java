@@ -4,13 +4,13 @@ public class BangunDatar {
     private double varA;
     private double varB;
 
-    // Constructor 2 parameter
+    // Constructor 
     public BangunDatar(double varA, double varB) {
         this.varA = varA;
         this.varB = varB;
     }
 
-    // Constructor 1 parameter
+    // Constructor
     public BangunDatar(double varA) {
         this.varA = varA;
     }
